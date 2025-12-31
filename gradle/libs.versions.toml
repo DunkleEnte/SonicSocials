@@ -1,0 +1,13 @@
+[versions]
+paper = "1.21.4-R0.1-SNAPSHOT"
+lombok = "1.18.42"
+run-paper = "2.3.1"
+json = "20230618"
+
+[libraries]
+paper-api = { group = "io.papermc.paper", name = "paper-api", version.ref = "paper" }
+lombok = { group = "org.projectlombok", name = "lombok", version.ref = "lombok" }
+json = { group = "org.json", name = "json", version.ref = "json" }
+
+[plugins]
+run-paper = { id = "xyz.jpenilla.run-paper", version.ref = "run-paper" }

@@ -1,0 +1,79 @@
+#                   INFORMATION                        #
+# ######################################################
+
+# This file is used for the /socials Menu
+# You can edit the slots to your liking, for hex colors
+# use &#FFEE00, etc.
+
+# ######################################################
+#                   SOCIALS MENU                       #
+# ######################################################
+
+menu:
+  title: "☀ Socials Menu" # Title of the Inventory
+  size: 27 # Size of the Inventory
+
+
+  tiktok-item:
+    slot: 10 # Slot of the Item
+
+    material: "WRITABLE_BOOK" # Material of the Item
+    name: "&#00C1FF&lTIKTOK" # Display Name of the Item
+    lore: # Lore of the Item
+      - "&8Social Channel"
+      - ""
+      - "&#00C1FFInformation:"
+      - "&fClick on this item to"
+      - "&fvisit our TikTok Channel."
+      - ""
+      - "&#00C1FF➥ &l&nCLICK&r &#00C1FFto Visit"
+
+    command: "tiktok" # Executed Command when clicking on the item
+
+  youtube-item:
+    slot: 12 # Slot of the Item
+
+    material: "WRITABLE_BOOK" # Material of the Item
+    name: "&#FF0000&lYOUTUBE" # Display Name of the Item
+    lore: # Lore of the Item
+      - "&8Social Channel"
+      - ""
+      - "&#FF0000Information:"
+      - "&fClick on this item to"
+      - "&fvisit our YouTube Channel."
+      - ""
+      - "&#FF0000➥ &l&nCLICK&r &#FF0000to Visit"
+
+    command: "youtube" # Executed Command when clicking on the item
+
+  twitch-item:
+    slot: 14 # Slot of the Item
+
+    material: "WRITABLE_BOOK" # Material of the Item
+    name: "&#B300FF&lTWITCH" # Display Name of the Item
+    lore: # Lore of the Item
+      - "&8Social Channel"
+      - ""
+      - "&#B300FFInformation:"
+      - "&fClick on this item to"
+      - "&fvisit our Twitch Channel."
+      - ""
+      - "&#B300FF➥ &l&nCLICK&r &#B300FFto Visit"
+
+    command: "twitch" # Executed Command when clicking on the item
+
+  discord-item:
+    slot: 16 # Slot of the Item
+
+    material: "WRITABLE_BOOK" # Material of the Item
+    name: "&#00C1FF&lDISCORD" # Display Name of the Item
+    lore: # Lore of the Item
+      - "&8Social Channel"
+      - ""
+      - "&#B300FFInformation:"
+      - "&fClick on this item to"
+      - "&fvisit our Discord Server."
+      - ""
+      - "&#00C1FF➥ &l&nCLICK&r &#00C1FFto Visit"
+
+    command: "discord" # Executed Command when clicking on the item

@@ -1,0 +1,19 @@
+name: SonicSocials
+version: '1.0.0'
+main: com.sonicstudios.Main
+api-version: '1.21'
+authors: [ DunkleEnte ]
+website: www.sonicstudios.com
+commands:
+
+  # Player Commands
+  media:
+  live:
+  socials:
+  discord:
+  tiktok:
+  youtube:
+  twitch:
+
+  # Admin Commands
+  sonicsocials:

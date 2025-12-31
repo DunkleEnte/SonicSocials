@@ -1,0 +1,87 @@
+# ######################################################
+#                   INFORMATION                        #
+# ######################################################
+
+# Thank you for using Sonic Socials!
+# Visit our discord server if you need any help.
+# ➥ discord.gg/sonicsocials
+
+# ######################################################
+#                   SETTINGS                           #
+# ######################################################
+
+# Allow ALL chat messages
+# If set to false, then it won't appear ANY chat message.
+allow-chat-messages: true
+
+# Allow ALL actionbar messages
+# If set to false, then it won't appear ANY actionbar message.
+allow-actionbar-messages: true
+
+# Used for the live cooldown
+cooldown: 10m
+
+# ######################################################
+#                     MESSAGES                         #
+# ######################################################
+sonicsocials:
+  prefix: "&#0097ff&lSONIC&r &8▶ "
+
+  no-permission: "&#FF0000You don't have permission for that!"
+  wrong-usage: "&#FF0000Usage: /sonicsocials reload"
+  success: "&#8DFB08Successfully reloaded the plugin!"
+
+
+  # Links used for the /socials Menu to display Social Links
+  twitch-link: "&fhttps://twitch.tv/sonicstudios"
+  youtube-link: "&fhttps://youtube.com/sonicstudios"
+  tiktok-link: "&fhttps://tiktok.com/sonicstudios"
+  discord-link: "&fhttps://discord.gg/sonicstudios"
+
+# Messages used for the /live Command
+live:
+  no-permission: "&#FF0000You don't have permission for that!"
+  on-cooldown: "&#FF0000You must wait %remaining% seconds before using this command again."
+
+  fallback-live: |
+    &#FF49A2&lLIVE STREAM
+    &r
+    &fAttention Players! &#FF49A2 %player%
+    &fis currently live.
+    &r
+    Support him by watching his &#FF49A2&nstream
+
+  # YouTube Live Message
+  youtube-live: |
+    &#FF0000&lLIVE STREAM
+    
+    &fAttention Players! &#FF0000%player%
+    &fis live on &#FF0000&lYOUTUBE&r
+
+    &fSupport him by watching his &#FF0000&nstream
+
+  youtube-link: "&#FF0000➥ &l&nCLICK&r &#FF0000to Watch"
+
+  # Twitch Live Message
+  twitch-live: |
+    &#B300FF&lLIVE STREAM
+    
+    &fAttention Players! &#B300FF%player%
+    
+    &fis live on &#B300FF&lTWITCH&r
+    &fSupport him by watching his &#B300FF&nstream
+
+  twitch-link: "&#B300FF➥ &l&nCLICK&r &#B300FFto Watch"
+
+  # TikTok Live Message
+  tiktok-live: |
+    &#00C1FF&lLIVE STREAM
+    
+    &fAttention Players! &#00C1FF%player%
+    &fis live on &#00C1FF&lTIKTOK&r
+    
+    &fSupport him by watching his &#00C1FF&nstream
+
+  tiktok-link: "&#00C1FF➥ &l&nCLICK&r &#00C1FFto Watch"
+
+  invalid-platform: "&#FF0000Invalid platform"

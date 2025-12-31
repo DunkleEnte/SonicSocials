@@ -1,0 +1,39 @@
+#                   INFORMATION                        #
+# ######################################################
+
+# This file is used for the /media Menu
+# You can edit the slots to your liking, for hex colors
+# use &#FFEE00, etc.
+
+# ######################################################
+#                     MEDIA MENU                       #
+# ######################################################
+
+menu:
+  title: "☀ Media Menu" # Title of the Inventory
+  size: 27 # Size of the Inventory
+
+
+  media-item:
+    slot: 13 # Slot of the Item
+
+    material: "WRITABLE_BOOK" # Material of the Item
+    name: "&#FF49A2&lMEDIA RANK" # Display Name of the Item
+    lore: # Lore of the Item
+      - "&8Streamer Rank"
+      - ""
+      - "&#FF49A2Requirements:"
+      - "&#FF49A2● &f15 Average Viewer on Stream"
+      - "&#FF49A2● &f5k Views on a YouTube Video"
+      - "&#FF49A2● &f10k Views on a Short"
+      - ""
+      - "&#FF49A2Important:"
+      - "&#FF49A2● &fServer IP must be visible on screen"
+      - "&#FF49A2● &fMust be within last 30 days of applying"
+      - "&#FF49A2● &fAny botting whatsoever will result a ban"
+      - "&#FF49A2● &fCreate a ticket on the discord server"
+      - "&#FF49A2● &fRank will last for 30 Days"
+      - ""
+      - "&#FF49A2➥ &l&nCLICK&r &#FF49A2to Apply"
+
+    command: "discord" # Executed Command when clicking on the item
