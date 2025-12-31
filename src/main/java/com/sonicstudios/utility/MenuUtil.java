@@ -25,7 +25,7 @@ public class MenuUtil {
         return getConfig(file).getInt("menu.size", 27);
     }
 
-    // Slot of  the GUI Menu
+    // Slot of the item
     public int getSlot(String file, String key) {
         return getConfig(file).getInt("menu." + key + ".slot", 0);
     }

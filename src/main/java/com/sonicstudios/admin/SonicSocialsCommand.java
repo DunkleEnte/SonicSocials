@@ -27,13 +27,14 @@ public class SonicSocialsCommand implements CommandExecutor {
             return true;
         }
 
-        if(args.length != 1 || !args[0].equalsIgnoreCase("reload")) {
+        if(args.length != 1) {
             if(MessageUtil.getChat()) {
                 sender.sendMessage(MessageUtil.getPrefix()+ MessageUtil.get("sonicsocials.wrong-usage"));
             }
 
             return true;
         }
+
         Main.getInstance().reloadConfig();
         MessageUtil.reloadCooldown();
 
